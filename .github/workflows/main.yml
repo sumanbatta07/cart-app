@@ -27,7 +27,7 @@ jobs:
       - name: Commit our changes 
         run: |
           git config user.name 'sumanbatta07'
-          git congig user.email 'sumanbatta07@gmail.com'
+          git config user.email 'sumanbatta07@gmail.com'
           git add .
           git commit -m "JPG Mover Activated"
           git push
